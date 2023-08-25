@@ -1,0 +1,54 @@
+.container {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    max-width: 100% !important; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .container .content-about {
+    position: absolute; /* Position the background text */
+    top: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(12, 220, 213); /* Fallback color */
+    background: rgba(12, 220, 213, 0.3); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 90%; /* Full width */
+    padding-bottom: 50px;/* Some padding */ 
+    height: 130px;   
+  }
+  .container .content-about > h1{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 120px;
+    font-size: 50px;
+  }
+  
+  .container .content-design {
+    position: absolute; /* Position the background text */
+    top: 97px; /* At the bottom. Use top:0 to append it to the top */
+    background-color: rgb(21, 135, 72);
+    height: 60px;
+    margin-left:637px ;
+    width: 500px; /* Full width */
+    z-index: 4;
+  }
+  .container .content-blog {
+    position: absolute; /* Position the background text */
+    top: 130px; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(247, 249, 249); /* Fallback color */
+    background: rgba(247, 249, 249, 0.8); /* Black background with 0.5 opacity */
+    color: #000000; /* Grey text */
+    width: 90%; /* Full width */
+  }
+  .container .content-blog > .intro-text{
+    margin-left: 120px;
+    margin-top: 70px;
+    margin-right: 70px;
+    font-size: 17px;
+    word-spacing: 20px;
+  }
+  .container .content-blog > ol{
+    word-spacing: 10px;
+    margin-left: 120px;
+  }

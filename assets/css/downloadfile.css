@@ -1,0 +1,31 @@
+.content-main{
+    margin-top: 50px;
+}
+.profile{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    position: relative;
+}
+.instruction{
+    position: absolute;
+    margin:0px 0px 0px 50px;
+    text-decoration: underline;
+    font-size: 35px;
+}
+ol{
+    margin: 50px 0px 0px 60px;
+}
+li{
+    margin-top: 10px;
+}
+.form{
+    flex: 1;
+    margin: 50px 0px 50px 75px;
+}
+.logout{
+    flex: 2;
+    margin: 20px 0px 0px 980px;
+    position: absolute;
+}
